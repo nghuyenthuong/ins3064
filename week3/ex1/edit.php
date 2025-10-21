@@ -21,7 +21,7 @@ while ($row=mysqli_fetch_array($res))
     $stock=$row["contact"];
 
 }
-header("location.index(1).php");
+header("location.index.php");
 ?>
 
 <html lang="en" xmlns="">

@@ -1,5 +1,5 @@
 <?php
-include "connection(1).php";
+include "connection.php";
 ?>
 
 <html lang="en" xmlns="">
