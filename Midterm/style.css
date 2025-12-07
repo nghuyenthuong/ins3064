@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa; /* Màu nền xám nhạt */
+}
+
+.product-card {
+    transition: box-shadow .3s;
+    border-radius: 10px;
+    border: none;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.2); /* Hiệu ứng đổ bóng khi di chuột qua */
+}
+
+.product-card .card-img-top {
+    width: 100%;
+    height: 200px; /* Cố định chiều cao ảnh */
+    object-fit: cover; /* Giữ tỷ lệ ảnh mà không làm méo */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    white-space: nowrap;      /* Ngăn không cho tên sản phẩm xuống dòng */
+    overflow: hidden;         /* Ẩn phần tên bị thừa */
+    text-overflow: ellipsis;  /* Hiển thị dấu "..." nếu tên quá dài */
+}
